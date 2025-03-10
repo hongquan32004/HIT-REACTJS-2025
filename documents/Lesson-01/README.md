@@ -29,6 +29,7 @@
     - Chậm hơn khi sử vì luôn tải lại toàn bộ khi truy cập và điều hướng
     - Thân thiện với SEO
     - VD: các trang báo mạng
+##### 3. JSX: (Tham khảo: https://www.youtube.com/watch?v=Vr64L3wZvl4)
 ### III. Khởi tạo dự án, tìm hiểu về components
 ##### 1. Khởi tạo dự án (tham khảo: https://create-react-app.dev/docs/getting-started/)
 - [x] Với npm: 
