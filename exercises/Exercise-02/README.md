@@ -20,7 +20,9 @@
 - [x] Bài 2: sử dụng useState để tạo nút toggle (lưu ý: nút toggle phải di chuyển trái phải mỗi khi click vào ô tròn đồng thời chữ on cũng sẽ thay đổi thành off trong các trường hợp tương ứng)
       ![alt text](./ex2.png)
 - [x] Bài 3: Sử dụng useState và Props làm bài tập về quản lý giỏ hàng:
+
   - Yêu cầu:
+
   1. Tạo một danh sách sản phẩm chứa: tên sản phẩm, giá sản phẩm, button thêm vào giỏ hàng.
   2. Khi nhấn vào button sản phẩm sẽ được thêm vào giỏ hàng.
   3. Trong giỏ hàng hiển thị danh sách sản phẩm đã thêm với số lượng từng sản phẩm.
@@ -28,10 +30,16 @@
      - Nhấn "+" để tăng số lượng.
      - Nhấn "-" để giảm số lượng (nếu về 0, sản phẩm bị xóa khỏi giỏ).
   5. Hiển thị tổng số sản phẩm trong giỏ hàng.
+
   - Gợi ý:
+
   1. Dùng useState để quản lý trạng thái giỏ hàng dưới dạng {id: quantity}.
   2. Dùng props để truyền dữ liệu và hàm xử lý giữa các component (ShoppingCartApp,ProductList, Cart).
-  - Nếu có 0 sản phẩm trong giỏ hàng:
+
+  - TH1: Nếu có 0 sản phẩm trong giỏ hàng:
+
     ![alt text](./ex3-1.png)
-  - Nếu trong giỏ hàng có sản phẩm:
+
+  - TH2: Nếu trong giỏ hàng có sản phẩm:
+
     ![alt text](./ex3-2.png)
